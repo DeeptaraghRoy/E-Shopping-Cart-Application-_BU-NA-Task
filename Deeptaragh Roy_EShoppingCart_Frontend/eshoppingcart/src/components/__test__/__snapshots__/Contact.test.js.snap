@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="mb-5 container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="text-center py-4 my-4 col"
+    >
+      <h1>
+        Have Some Questions?
+      </h1>
+      <hr />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="d-flex justify-content-center col"
+    >
+      <img
+        alt="Contact Us"
+        height="400px"
+        src="/assets/images/contact.jpg"
+        width="550px"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <form
+        className=""
+      >
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="exampleForm"
+          >
+            Full Name
+          </label>
+          <input
+            className="form-control"
+            id="exampleForm"
+            placeholder="FirstName LastName"
+            type="text"
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="exampleForm"
+          >
+            Email Address
+          </label>
+          <input
+            className="form-control"
+            id="exampleForm"
+            placeholder="name@example.com"
+            type="email"
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="exampleForm.ControlTextarea1"
+          >
+            Query
+          </label>
+          <textarea
+            className="form-control"
+            id="exampleForm.ControlTextarea1"
+            rows={3}
+          />
+        </div>
+        <button
+          className="btn btn-outline-primary ms-2"
+          disabled={false}
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

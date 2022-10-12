@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: profileJWT
+  config:
+     import: configserver:http://localhost:9296
+  
+  
+jwt:
+  secret: secretkey123
+    
